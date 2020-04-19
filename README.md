@@ -17,7 +17,7 @@ This is a kubernetes device plugin that can discover and expose GPUs and vGPUs o
 - Performs basic health check on the GPU on a kubernetes node.
 
 ## Prerequisites
-- Need to have Nvidia GPU configured for GPU pass thorugh or vGPU. Quickstart section provides details about this
+- Need to have Nvidia GPU configured for GPU pass through or vGPU. Quickstart section provides details about this
 - Kubernetes version >= v1.11
 - Kubevirt release >= v0.22.0
 - Kubevirt GPU feature gate should be enabled. Feature gate is enabled by creating a ConfigMap. ConfigMap yaml can be found under /examples
